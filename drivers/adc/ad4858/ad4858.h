@@ -235,10 +235,10 @@ enum ad4858_osr_ratio {
  * @brief Packet formats
  */
 enum ad4858_packet_format {
+	AD4858_PACKET_16_BIT,
 	AD4858_PACKET_20_BIT,
 	AD4858_PACKET_24_BIT,
-	AD4858_PACKET_32_BIT,
-	AD4858_NUM_OF_PACKETS
+	AD4858_PACKET_32_BIT
 };
 
 /**
